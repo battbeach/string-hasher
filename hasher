@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+var hasher = require('./lib/hasher');
+
+program
+  .version('0.1.0')
+  .arguments('<string>')
+  .action(function (string) {
+    hasher.hash(string, (err, hashed) => {
+      console.log(hashed);
+    });
+ });
+
+program.parse(process.argv);
+

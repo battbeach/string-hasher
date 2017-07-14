@@ -1,0 +1,31 @@
+{
+  "name": "string-hasher",
+  "version": "1.0.0",
+  "description": "a simple utility to hash a given string",
+  "main": "string-hasher",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/battbeach/string-hasher.git"
+  },
+  "keywords": [
+    "hash",
+    "string"
+  ],
+  "author": "battbeach@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/battbeach/string-hasher/issues"
+  },
+  "homepage": "https://github.com/battbeach/string-hasher#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "commander": "^2.11.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  }
+}
